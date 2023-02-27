@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaoyangwaimai.back.dao.UserbackDao">
+
+    <insert id="insertUser" parameterType="com.xiaoyangwaimai.pojo.po.UserbackPo" keyProperty="id" useGeneratedKeys="true">
+        insert into userback(
+            user_back_account,user_back_password,manage_name,create_time,update_time
+        )values(#{userBackAccount},#{userBackPassword},#{manageName},#{createTime},#{updateTime})
+    </insert>
+
+
+</mapper>

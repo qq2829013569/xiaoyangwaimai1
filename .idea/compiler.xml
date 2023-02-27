@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xywm-back" />
+        <module name="xywm-api" />
+        <module name="xywm-backs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xiaoyangwaimai-master" target="1.8" />
+      <module name="xywm-api" target="8" />
+      <module name="xywm-back" target="8" />
+      <module name="xywm-backs" target="1.8" />
+      <module name="xywm-commons" target="1.8" />
+      <module name="xywm-commons-mybatis" target="1.8" />
+      <module name="xywm-commons-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="xywm-api" options="-parameters" />
+      <module name="xywm-backs" options="-parameters" />
+    </option>
+  </component>
+</project>

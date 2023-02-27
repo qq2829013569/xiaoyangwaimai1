@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/xiaoyangwaimai-master.iml" filepath="$PROJECT_DIR$/.idea/xiaoyangwaimai-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xywm-api/xywm-api.iml" filepath="$PROJECT_DIR$/xywm-api/xywm-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xywm-back/xywm-back.iml" filepath="$PROJECT_DIR$/xywm-back/xywm-back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xywm-backs/xywm-backs.iml" filepath="$PROJECT_DIR$/xywm-backs/xywm-backs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xywm-commons/xywm-commons.iml" filepath="$PROJECT_DIR$/xywm-commons/xywm-commons.iml" />
+    </modules>
+  </component>
+</project>
